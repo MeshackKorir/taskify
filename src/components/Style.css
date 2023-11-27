@@ -16,9 +16,25 @@
 }
 
 .input_submit{
-
+position: absolute;
+width: 50px;
+height: 50px;
+margin: 12px;
+border-radius: 50px;
+right: 0px;
+border: none;
+font-size: 15px;
+background-color: rgb(30, 30, 231);
+color: antiquewhite;
+transition: 0.2s all;
+box-shadow: 0 0 10px black;
 }
 
 .input_box:focus {
     box-shadow: 0 0 10px 1000px rgb(118, 72, 72);
+}
+
+.input_submit:active {
+    transform: scale(0.8);
+    box-shadow: 0 0 5px black;
 }
