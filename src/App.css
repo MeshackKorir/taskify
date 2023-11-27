@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blue;
+  background-color: rgb(131, 131, 245);
   font-family: "Neucha", cursive;
 }
 
@@ -17,4 +17,11 @@
   color: antiquewhite;
   z-index: 1;
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  .heading {
+    margin: 15px o;
+    font-size: 35px;
+  }
 }
