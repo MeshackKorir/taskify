@@ -1,6 +1,6 @@
 import './App.tsx';
 import React, { useState } from 'react'
-import InputField from './components/InputField';
+import InputField from '../components/InputField';
 
 
 
