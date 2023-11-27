@@ -1,13 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
+// import React from 'react';
 import './App.css';
+import React, { FC } from 'react';
 
-function App() {
+
+
+const App: React.FC = () => {
   return (
     <div className="App">
-      Hello Meshack
-    </div>
-  );
-}
+      <span className='heading'>
+        Taskify
+      </span>
+     </div>
+
+  )
+
+};
 
 export default App;
