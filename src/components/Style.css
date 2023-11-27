@@ -31,7 +31,7 @@ box-shadow: 0 0 10px black;
 }
 
 .input_box:focus {
-    box-shadow: 0 0 10px 1000px rgb(118, 72, 72);
+    box-shadow: 0 0 10px 1000px rgb(53, 41, 41);
 }
 
 .input_submit:active {
